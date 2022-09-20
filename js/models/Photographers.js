@@ -17,7 +17,7 @@ class Photographs {
     return this._id;
   }
 
-  get city() {
+  get city() { 
     return this._city;
   }
 
@@ -31,7 +31,7 @@ class Photographs {
   get price() {
     return this._price;
   }
-  get portrait() {
+  get portrait() { 
     return `/assets/photographers/${this._portrait}`;
   }
 }
