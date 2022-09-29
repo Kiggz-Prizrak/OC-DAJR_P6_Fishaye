@@ -1,13 +1,14 @@
 <!DOCTYPE html>
-<html>
+<html lang="fr">
   <head>
-    <link href="css/style.css" rel="stylesheet" type="text/css" />
-    <meta charset="utf-8" />
-    <link rel="icon" type="image/png" href="assets/favicon.png" />
+    
+    <link href="css/style.css" rel="stylesheet" type="text/css">
+    <meta charset="utf-8" >
+    <link rel="icon" type="image/png" href="assets/favicon.png">
     <link
       href="https://fonts.googleapis.com/css?family=DM+Sans&display=swap"
       rel="stylesheet"
-    />
+    >
     <link  rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css">
 
     <title>Fisheye - photographe</title>
@@ -16,7 +17,7 @@
     <div>
       <header>
         <a href="index.html">
-          <img alt="Fisheye Home page" src="assets/images/logo.png" class="logo" />
+          <img alt="Fisheye Home page" src="assets/images/logo.png" class="logo" >
         </a>
       </header>
 
@@ -24,21 +25,21 @@
 
         <div class="photograph-header">
           <div class="photographerInfo">
-            <h1 id="photographerName"></h1>
+            <h1 id="photographerName">Nom du Photographe</h1>
             <p id="photographerLocation"></p>
             <p id="photographerTagLine"></p>
           </div>
-          <button id='contactButton' class="contact_button" >
+          <button aria-label ="ouvrir le formulaire de contact" id='contactButton' class="contact_button" >
             Contactez-moi
           </button>
-          <img class="" id="PhotographerImg" />
+          <img alt="portrait du photographe" src="#" id="PhotographerImg">
         </div>
 
         <div class="filterBlock">
         <p>Trier par</p>
         <div>
           <div class="filter">
-            <button id="btnFilterSelected">
+            <button aria-label="Filtrer la gallery" id="btnFilterSelected">
               <span id="filterSelected"></span>
               <span id="filterIcon"><i class="fa-solid fa-chevron-down"></i></span>
             </button>

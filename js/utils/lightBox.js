@@ -35,11 +35,11 @@ class LightBox {
     <div class= slideShowContainer id="lightBox">
       
       <div class="slideShow">
-        <button id="close_modal">
+        <button aria-label="Fermer la modal" id="close_modal">
           <span ><i class="fa-solid fa-xmark"></i></span>
         </button>
       
-        <button id="left">
+        <button id="left" aria-label="parcourir à gauche">
           <span ><i class="fa-solid fa-chevron-left"></i></span>
         </button>
 
@@ -54,7 +54,7 @@ class LightBox {
             </div>
             
           </div>
-        <button id="right">
+        <button id="right" aria-label="parcourir à droite">
           <span ><i class="fa-solid fa-chevron-right"></i></span>
         </button>
 
@@ -115,6 +115,7 @@ class LightBox {
       if (this._array[this._index].image) {
         media = `
          <img 
+          alt="Image de gallery"
           id="LightBoxMedia" 
           src="/assets/photos/${this._author}/${
           this._array[this._index].image
@@ -124,7 +125,7 @@ class LightBox {
       } else if (this._array[this._index].video) {
         media = `
       
-        <video controls width="250" id="LightBoxMedia" >
+        <video controls width="250" id="LightBoxMedia" alt="Vidéo de gallery">
           <source src="/assets/photos/${this._author}/${
           this._array[this._index].video
         }"

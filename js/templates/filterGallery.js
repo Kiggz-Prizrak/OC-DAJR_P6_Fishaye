@@ -1,6 +1,7 @@
 const createFilterGallery = function (parameter, callback, gallery) {
   const scrollingFilter = document.getElementById("scrollingFilter");
   const filterIcon = document.getElementById("filterIcon");
+  scrollingFilter.style.display = "none";
 
   const inputFilterSelected = document.getElementById("btnFilterSelected");
   inputFilterSelected.addEventListener("click", (e) => {
