@@ -64,6 +64,8 @@ class ContactForm {
         </div>
      `;
     this._container.innerHTML = form;
+
+    document.querySelector("#close_form").focus()
   }
 
   ////////////////////////////////////////////////////////////////////////
