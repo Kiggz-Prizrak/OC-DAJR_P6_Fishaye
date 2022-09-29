@@ -69,6 +69,7 @@ class ContactForm {
   ////////////////////////////////////////////////////////////////////////
   // Closer
   contactFormCloser() {
+
     document.getElementById("close_form").addEventListener("click", () => {
       this._container.innerHTML = "";
     });
