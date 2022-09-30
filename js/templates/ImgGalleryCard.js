@@ -26,7 +26,7 @@ class ImgGalleryBlock {
 
       const imgGalleryCard = `
         <a class="linkGallery" href="" alt="image de la gallery" >
-          <video type="video/mp4" src="${this._ImgGallery.image}"></video>
+          <video al="${this._ImgGallery.title}" type="video/mp4" src="${this._ImgGallery.image}"></video>
         </a>
           <div class="imgLike">
             <p>${this._ImgGallery.title} </p>
@@ -73,7 +73,7 @@ class ImgGalleryBlock {
 
       const imgGalleryCard = `
       <a class="linkGallery" href="" >
-        <img class ="imgGallery" src="${this._ImgGallery.image}" alt="image de la gallery">
+        <img class ="imgGallery" src="${this._ImgGallery.image}" alt="${this._ImgGallery.title}">
       </a>
 
         <div class="imgLike">
